@@ -12,12 +12,21 @@ def create_app(test_config=None):
 
   if test_config is None:
     setup_db(app)
+    db_drop_and_create_all()
   else:
     database_path = test_config.get('SQLALCHEMY_DATABASE_URI')
     setup_db(app, database_path=database_path)
+    db_drop_and_create_all()
 
   CORS(app)
-  db_drop_and_create_all()
+
+  @app.route('/')
+  def get_greeting():
+      excited = os.environ['EXCITED']
+      greeting = "Hello" 
+      if excited == 'true': 
+          greeting = greeting + "!!!!! You are doing great in this Udacity project."
+      return greeting
 
   '''
   Get list movies
