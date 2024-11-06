@@ -1,3 +1,11 @@
+# Motivation for the Project
+
+This project was inspired by the need for a more efficient and user-friendly way to manage movie collections. Many existing solutions are either too complex or lack the features that users truly need. By developing this API, we aim to provide a robust and scalable solution that allows users to easily add, retrieve, update, and delete movie records, all while ensuring secure access through role-based access control (RBAC).
+
+Additionally, this project is part of the Udacity Full Stack Web Developer Nanodegree program, where the goal is to build a comprehensive capstone project that demonstrates mastery of backend development, authentication, and deployment.
+
+## API URL The API is hosted live at: [https://your-app-name.herokuapp.com](https://your-app-name.herokuapp.com
+
 ## Setting up the Backend
 
 ### Install Dependencies
