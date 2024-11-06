@@ -4,7 +4,7 @@ This project was inspired by the need for a more efficient and user-friendly way
 
 Additionally, this project is part of the Udacity Full Stack Web Developer Nanodegree program, where the goal is to build a comprehensive capstone project that demonstrates mastery of backend development, authentication, and deployment.
 
-## API URL The API is hosted live at: [https://your-app-name.herokuapp.com](https://your-app-name.herokuapp.com
+## API URL The API is hosted live at: [https://udacity-capstone-0xx5.onrender.com](https://udacity-capstone-0xx5.onrender.com)
 
 ## Setting up the Backend
 
